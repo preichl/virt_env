@@ -5,5 +5,4 @@ qemu-kvm -kernel ../arch/x86/boot/bzImage \
 -initrd initramfs.gz \
 -append "console=ttyS0" \
 -hda ~/vms/xfs_image/xfs_image.raw \
--hdb ~/vms/xfs_image/xfs_image2.raw \
 -nographic
